@@ -1,2 +1,5 @@
 # lookupdomain
 机器获悉自身由DNS关联的域名
+
+client为需要知道自身域名机器的程序
+lookup为遍历已知域名的程序，并告知机器其域名
