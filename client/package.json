@@ -1,0 +1,14 @@
+{
+    "name": "domain.client",
+    "version": "1.0.0",
+    "description": "接收lookup程序连接辨别机器自身域名",
+    "main": "app.js",
+    "directories": {},
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "hmh",
+    "dependencies": {
+        "socket.io": "^1.4.5"
+    }
+}

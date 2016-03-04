@@ -1,0 +1,67 @@
+{
+    "apps" : [{
+        "name"             : "ping1",
+        "args"             : ["3001"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping2",
+        "args"             : ["3002"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping3",
+        "args"             : ["3003"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping4",
+        "args"             : ["3004"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping5",
+        "args"             : ["3005"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping6",
+        "args"             : ["3006"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping7",
+        "args"             : ["3007"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    },{
+        "name"             : "ping8",
+        "args"             : ["3008"],
+        "script"           : "app.js",
+        "pid_file"         : "pid/app-api.pid",
+        "watch"            : false,
+        "instances"        : 1,
+        "exec_mode"        : "fork"
+    }]
+}
